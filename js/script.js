@@ -111,7 +111,7 @@ const initTimer = (maxTime) => {
     }
     clearInterval(timer);
     alert(
-      `Zaman bitti!${correctWord.toUpperCase()} doğru cevaptı / Time is up! ${correctWord.toUpperCase()} was the correct answer`
+      `Zaman bitti! ${correctWord.toUpperCase()} doğru cevaptı / Time is up! ${correctWord.toUpperCase()} was the correct answer`
     );
     initGame();
   }, 1000);
